@@ -1,0 +1,47 @@
+[Wed, 15 Feb 2012 12:38:24 GMT] INFO Server starting with config: {
+  "environment": "development",
+  "workers": 1,
+  "port": 4000,
+  "debug": true,
+  "rotateWorkers": false,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/home/frank/WebstormProjects/Mud/editor/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/home/frank/WebstormProjects/Mud/editor/public",
+  "sessions": {
+    "store": "memory",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "metrics": null,
+  "detailedErrors": true,
+  "hostname": null
+}
+[Wed, 15 Feb 2012 12:38:24 GMT] INFO Creating 1 worker process.
+[Wed, 15 Feb 2012 12:38:25 GMT] INFO Server worker running in development on port 4000 with a PID of: 12154
+[Wed, 15 Feb 2012 12:38:25 GMT] DEBUG LOGGING STARTED ============================================
+[Wed, 15 Feb 2012 12:38:25 GMT] DEBUG ============================================================
+[Wed, 15 Feb 2012 12:38:38 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 12:38:38 GMT] DEBUG received data
+[Wed, 15 Feb 2012 12:38:56 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 12:38:56 GMT] DEBUG received data
+[Wed, 15 Feb 2012 12:47:58 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 12:47:58 GMT] DEBUG received data
+[Wed, 15 Feb 2012 12:48:33 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 12:48:33 GMT] DEBUG received data
+[Wed, 15 Feb 2012 12:57:23 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 12:57:23 GMT] DEBUG received data
+[Wed, 15 Feb 2012 13:27:18 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 13:27:18 GMT] DEBUG received data
+[Wed, 15 Feb 2012 13:27:27 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 13:27:27 GMT] DEBUG received data
+[Wed, 15 Feb 2012 13:27:32 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 13:27:32 GMT] DEBUG received data
+[Wed, 15 Feb 2012 13:27:37 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 13:27:37 GMT] DEBUG received data
+[Wed, 15 Feb 2012 13:27:56 GMT] DEBUG POST /locations
+[Wed, 15 Feb 2012 13:27:56 GMT] DEBUG received data

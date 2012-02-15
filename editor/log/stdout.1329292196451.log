@@ -1,0 +1,27 @@
+[Wed, 15 Feb 2012 07:45:29 GMT] INFO Server starting with config: {
+  "environment": "development",
+  "workers": 1,
+  "port": 4000,
+  "debug": true,
+  "rotateWorkers": false,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/home/frank/WebstormProjects/Mud/editor/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/home/frank/WebstormProjects/Mud/editor/public",
+  "sessions": {
+    "store": "memory",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "metrics": null,
+  "detailedErrors": true,
+  "hostname": null
+}
+[Wed, 15 Feb 2012 07:45:29 GMT] INFO Creating 1 worker process.
+[Wed, 15 Feb 2012 07:45:30 GMT] INFO Server worker running in development on port 4000 with a PID of: 2833
+[Wed, 15 Feb 2012 07:45:30 GMT] DEBUG LOGGING STARTED ============================================
+[Wed, 15 Feb 2012 07:45:30 GMT] DEBUG ============================================================

@@ -1,0 +1,17 @@
+<% if (!location) {%>
+<h1>Error: Location not found.</h1>
+
+<% return } %>
+
+<div class="hero-unit">
+  <h3><%=location.name%></h3>
+  <p><%=location.description%>
+  <h4>Exits:</h4>
+  <% for (var p in location.exits) { %>
+      <p><a href="/locations/<%=location.exits[p]%>"><%= p + ':' + location.exits[p] %></a></p>
+  <% } %>
+
+<div class="btn"><a href="/locations/<%=location.name%>/edit">Edit location</a></div>
+
+</div>
+<a href="/locations">back to Locations</a>

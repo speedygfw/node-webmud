@@ -1,0 +1,31 @@
+<% if (!location) {%>
+<h1>Error: Location not found.</h1>
+
+<% return } %>
+
+<%
+  if (!location.exits){
+    location.exits = {}
+  }
+%>
+<form id="loc_edit_form" action="/locations" method="POST">
+
+<div class="row ">
+<h1>Edit Location</h1>
+  <div>
+  <input type="text" name="name" readonly="readonly" value="<%=location.name%>"></input><br/>
+  <textarea cols="50" rows="10" name="description"><%=location.description%></textarea>
+  </div>
+  <div >
+  <h4>Exits:</h4>
+<div style="margin-left: 100px;"> North <input type="text" name="north" value="<%=location.exits.north %>"></input></div>
+West <input type="text" name="west" value="<%=location.exits.west %>"></input>
+East <input type="text" name="east" value="<%=location.exits.east %>"></input>
+<div style="margin-left: 100px;">South <input type="text" name="south" value="<%=location.exits.south %>"></input></div>
+
+<input type="submit" class="btn btn-primary" value="Update Location"></input>
+</div>
+</div>
+</form>
+
+<a href="/locations">back to Locations</a>

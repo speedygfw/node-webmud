@@ -1,0 +1,1 @@
+{"name":"room","description":"Du befindest dich im Room","exits":{"north":"","south":"hallway","west":"lobbywest","east":""},"props":{"stone":{}}}
