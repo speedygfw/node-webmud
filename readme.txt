@@ -1,8 +1,4 @@
-The EDungeon - Mud (mud + editor)
-
-
-Copyright (c) 2012 Frank Wallenborn
-
+Node-WebMUD - (mud + editor)
 
 
 Features:
@@ -10,4 +6,4 @@ Features:
   Mud-Server (using the node-mingy command line Parser) 
 
 Requirements:
-  nodejs, geddy, node-mingy, tty
+  nodejs, geddy, node-mingy, sty
