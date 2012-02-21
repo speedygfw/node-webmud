@@ -1,0 +1,28 @@
+name: look
+syntax: ["look", "l"]
+logic: !!js/function >
+  function(args, env, system){
+    var output = '';
+    var location_name = env.users[system.stream.userID].location;
+    var location = env.locations[location_name];
+    // describe location
+    output += location.description + "\n";
+    output += "Exits:";
+
+    for (var p in location.exits)
+      output += p + ',';
+    // describe nearby props
+    for (var propName in location.props) {
+      var prop = env.props[propName]
+      output += "You see a " + propName + ".\n"
+    }
+
+    // describe nearby users
+    for (var userID in env.users) {
+        var user = env.users[userID];
+        if (user.location == location && (userID != system.stream.userID)) {
+            output += "You see " + user.name + ".\n"
+        }
+    }
+    return env.sty.parse(output);
+  }

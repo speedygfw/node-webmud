@@ -1,1 +1,1 @@
-{"name":"hallway","description":"Du befindest dich auf einem Deck. Vor dir liegen weite Korridore.","exits":{"north":"room","south":"","west":"testraum","east":""}}
+{"name":"hallway","description":"Du <green>befindest</green> dich auf einem Deck. \r\n\r\nVor dir liegen weite Korridore.","exits":{"north":"room","south":"","west":"testraum","east":""}}

@@ -1,0 +1,8 @@
+{
+    "name":"wohnzimmer",
+    "description":"Du befindest dich im Wonzimmer. Vor Dir steht ein Tisch auf dem eine Rose steht.",
+    "exits":{"south":"hallway","west":"lobbywest"},
+    "props":{
+        "rose": {}
+    }
+}

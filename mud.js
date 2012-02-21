@@ -1,6 +1,9 @@
 var config = require("./config");
 var fs = require("fs");
 
+var yaml = require('js-yaml');
+
+// Get array of documents, or throw exception on error
 
 
 
@@ -46,11 +49,25 @@ mud.saveLocation = function(obj)
     });
 }
 
-mud.loadCommand = function()
+mud.removeLocation = function(id)
 {
-    var tmp = JSON.parse(fs.readFileSync(mud.commands_dir + 'help.json', 'utf8'));
-    return tmp;
+    fs.unlink(mud.location.dir + id + ".json");
 }
+
+mud.loadCommands = function(parser)
+{
+    var files = fs.readdirSync(mud.commands_dir);
+    for (var fname in files) {
+        var hcommand = yaml.load(fs.readFileSync(mud.commands_dir + files[fname], 'utf8'));
+        parser.addCommand(hcommand.name)
+            .set('syntax', hcommand.syntax)
+            .set('logic', hcommand.logic);
+
+        mud.locations[hcommand.name] = hcommand;
+        //console.log(tmp.name);
+    }
+}
+
 
 
 module.exports = mud;

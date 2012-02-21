@@ -1,0 +1,8 @@
+name: quit
+syntax: ["quit", "exit"]
+logic: !!js/function >
+  function(args, env, system){
+    delete env.users[system.stream.userID];
+    delete system.stream.userID;
+    return "Goodbye!\n";
+  }
