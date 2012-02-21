@@ -1,5 +1,0 @@
-{
-    "name":"help",
-    "syntax": ["help"],
-    "logic": "mud.commands['help'] = function(args){return \"bla\";};"
-}
