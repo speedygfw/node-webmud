@@ -52,6 +52,7 @@ var Locations = function () {
   };
 
   this.remove = function (req, resp, params) {
+    mud.removeLocation(params.id);
     this.respond({params: params});
   };
 
