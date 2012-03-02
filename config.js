@@ -1,7 +1,7 @@
 var config = {}
 
 
-config.port = 80;
+config.port = 4444;
 config.language = "de";
 config.commands = {};
 config.location_dir = "public/locations/";

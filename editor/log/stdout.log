@@ -1,4 +1,4 @@
-[Wed, 15 Feb 2012 18:01:54 GMT] INFO Server starting with config: {
+[Fri, 02 Mar 2012 19:48:10 GMT] INFO Server starting with config: {
   "environment": "development",
   "workers": 1,
   "port": 4000,
@@ -6,11 +6,11 @@
   "rotateWorkers": false,
   "rotationWindow": 7200000,
   "rotationTimeout": 300000,
-  "logDir": "/home/frankwallenborn/WebstormProjects/Mud/editor/log",
+  "logDir": "/home/frankwallenborn/repos/node-webmud/editor/log",
   "gracefulShutdownTimeout": 30000,
   "heartbeatInterval": 5000,
   "heartbeatWindow": 20000,
-  "staticFilePath": "/home/frankwallenborn/WebstormProjects/Mud/editor/public",
+  "staticFilePath": "/home/frankwallenborn/repos/node-webmud/editor/public",
   "sessions": {
     "store": "memory",
     "key": "sid",
@@ -21,9 +21,7 @@
   "detailedErrors": true,
   "hostname": null
 }
-[Wed, 15 Feb 2012 18:01:54 GMT] INFO Creating 1 worker process.
-[Wed, 15 Feb 2012 18:01:54 GMT] INFO Server worker running in development on port 4000 with a PID of: 2580
-[Wed, 15 Feb 2012 18:01:54 GMT] DEBUG LOGGING STARTED ============================================
-[Wed, 15 Feb 2012 18:01:54 GMT] DEBUG ============================================================
-[Wed, 15 Feb 2012 18:19:27 GMT] DEBUG POST /locations
-[Wed, 15 Feb 2012 18:19:27 GMT] DEBUG received data
+[Fri, 02 Mar 2012 19:48:10 GMT] INFO Creating 1 worker process.
+[Fri, 02 Mar 2012 19:48:10 GMT] INFO Server worker running in development on port 4000 with a PID of: 3390
+[Fri, 02 Mar 2012 19:48:10 GMT] DEBUG LOGGING STARTED ============================================
+[Fri, 02 Mar 2012 19:48:10 GMT] DEBUG ============================================================
